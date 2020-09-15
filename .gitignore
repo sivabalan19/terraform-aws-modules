@@ -1,0 +1,3 @@
+# adding the ignore for IDEA proj files.ß
+.DS_Store
+.idea

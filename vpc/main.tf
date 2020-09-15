@@ -1,11 +1,3 @@
-//terraform {
-//  backend "s3" {
-//    bucket = var.vpc_remote_state_bucket
-//    key    = var.vpc_remote_state_key
-//    region = "eu-central-1"
-//  }
-//}
-
 resource "aws_vpc" "main_vpc" {
   cidr_block       = var.cidr_block
   instance_tenancy = "default"
